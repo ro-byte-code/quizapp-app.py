@@ -10,7 +10,7 @@ from email.message import EmailMessage
 # ==========================================
 # We now pull the email credentials from Streamlit's secure "Secrets" vault
 # so they are never visible in the code itself!
-TEACHER_RECEIVING_EMAIL = "philnelsongeorge@gmail.com"
+TEACHER_RECEIVING_EMAIL = "rohitkrchrtri@gmail.com"
 
 capitals = {
     'Alabama': 'Montgomery', 'Alaska': 'Juneau', 'Arizona': 'Phoenix',
