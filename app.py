@@ -107,6 +107,19 @@ if 'quiz_data' not in st.session_state:
 # ==========================================
 # USER INTERFACE
 # ==========================================
+
+# --- HIDE STREAMLIT BRANDING & MENU ---
+hide_menu_style = """
+    <style>
+    #MainMenu {visibility: hidden;}
+    [data-testid="stHeader"] {visibility: hidden;}
+    footer {visibility: hidden;}
+    </style>
+"""
+st.markdown(hide_menu_style, unsafe_allow_html=True)
+
+
+
 st.title("🏛️ US State Capitals Quiz")
 
 # --- STEP 1: LOGIN ---
